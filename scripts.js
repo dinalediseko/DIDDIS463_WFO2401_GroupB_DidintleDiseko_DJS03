@@ -26,7 +26,7 @@ const createPreviewElement = ({ author, id, image, title }) => {
     return element;
 };
 
-// Function to render books based on the provided result
+// Function to render books
 const renderBooks = (result) => {
     // Select the list items container
     const listItems = document.querySelector('[data-list-items]');
